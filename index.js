@@ -12,6 +12,6 @@ connectToDatabase();
 //require("./modules/http")
 //const person = new Person("Raiane");
 
-//require("./modules/express");
+require("./modules/express");
 
 // console.log(person.sayMyName());
