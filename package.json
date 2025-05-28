@@ -9,7 +9,8 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "Curso de Node.js"
+  "description": "Curso de Node.js",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
-
-
