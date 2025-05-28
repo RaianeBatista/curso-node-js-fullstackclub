@@ -8,4 +8,6 @@ class Person {
   }
 }
 
-MediaSourceHandle.exports
+module.exports = {
+    Person,
+};
