@@ -11,10 +11,12 @@ const path = require("path");
 // });
 
 // Criar um arquivo
-// Obs: O writeFile é assicrono, não acontece de uma vez
+// Obs: O writeFile é um método  assicrono, não acontece de uma vez
 // 1º O Node fica escrevendo o arquivo, enquanto isso,
 //2.º O Node vai para o appendFile, enquanto isso,
-//3º O Node vai para o readFile, no caso, quando o node le o arquivo, os outros 2 de cima ainda não foram concluidos, especificamente o appendFile, por isso devvemos por todos no mesmo escopo
+//3º O Node vai para o readFile, no caso, quando o node le o arquivo, 
+// os outros 2 de cima ainda não foram concluidos, especificamente o appendFile, 
+// por isso devvemos por todos no mesmo escopo
 fs.writeFile(
   path.join(__dirname, "/test", "test.txt"),
   "hello node!",
