@@ -1,4 +1,4 @@
-# Aulao Node.js
+# Aulao Node.js - FullStack Club
 ![Image](https://github.com/user-attachments/assets/4ae255b7-8c95-443d-a7ca-3a7759023d51)
 ### Projeto de exemplo para estudo de Node.js, Express, MongoDB e EJS.
 
@@ -88,4 +88,4 @@ ISC
 
 ---
 
-> Projeto para fins educacionais — FullStack Club Bootcamp
+> [Projeto para fins educacionais — FullStack Club Bootcamp](https://alunos.fullstackclub.com.br)
